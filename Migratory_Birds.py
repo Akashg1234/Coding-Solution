@@ -1,7 +1,7 @@
 n=int(input())
 l1=[]
 count_list=[]
-
+#this code is contributed
 for i in range(n):
   k=int(input())
   #print(k)
