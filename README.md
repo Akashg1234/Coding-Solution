@@ -52,3 +52,17 @@ Both the left and right subtrees must also be binary search trees.
 ## Symmetric Tree
 
 Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+
+## Maximum Depth of Binary Tree
+
+Given the root of a binary tree, return its maximum depth.
+
+A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+## Balanced Tree
+Given a binary tree, determine if it is height-balanced.
+
+For this problem, a height-balanced binary tree is defined as:
+
+a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
+
