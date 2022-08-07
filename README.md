@@ -66,3 +66,10 @@ For this problem, a height-balanced binary tree is defined as:
 
 a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
 
+## Minimum Depth of Binary Tree
+
+Given a binary tree, find its minimum depth.
+
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+
+Note: A leaf is a node with no children.
