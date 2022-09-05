@@ -90,6 +90,8 @@ A root-to-leaf path is a path starting from the root and ending at any leaf node
 
 Given the root of a binary tree, flatten the tree into a "linked list":
 
+![alt text](https://assets.leetcode.com/uploads/2021/01/14/flaten.jpg)
+
 The "linked list" should use the same TreeNode class where the right child pointer points to the next node in the list and the left child pointer is always null.
 The "linked list" should be in the same order as a pre-order traversal of the binary tree.
 
