@@ -377,3 +377,184 @@ Constraints:
 
 0 <= s.length <= 200
 s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
+
+
+## ZigZagConversion of a string
+
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+
+And then read line by line: "PAHNAPLSIIGYIR"
+
+
+Write the code that will take a string and make this conversion given a number of rows:
+
+
+string convert(string s, int numRows);
+ 
+
+Example 1:
+
+
+Input: s = "PAYPALISHIRING", numRows = 3
+
+
+Output: "PAHNAPLSIIGYIR"
+
+
+Example 2:
+
+
+Input: s = "PAYPALISHIRING", numRows = 4
+
+
+Output: "PINALSIGYAHRPI"
+
+
+Explanation:
+
+
+P     I    N
+A   L S  I G
+Y A   H R
+P     I
+
+## Valid Parenthesis
+
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+
+An input string is valid if:
+
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+ 
+
+Example 1:
+
+
+Input: s = "()"
+Output: true
+
+
+Example 2:
+
+Input: s = "()[]{}"
+Output: true
+
+
+Example 3:
+
+Input: s = "(]"
+Output: false
+
+
+## Group Anagrams
+
+
+Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+ 
+
+Example 1:
+
+
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+
+Example 2:
+
+Input: strs = [""]
+Output: [[""]]
+
+
+Example 3:
+
+Input: strs = ["a"]
+Output: [["a"]]
+
+
+## Longest Prefix Suffix
+
+Given a string of characters, find the length of the longest proper prefix which is also a proper suffix.
+
+
+NOTE: Prefix and suffix can be overlapping but they should not be equal to the entire string.
+
+
+Example 1:
+
+
+Input: s = "abab"
+
+Output: 2
+
+Explanation: "ab" is the longest proper 
+
+prefix and suffix. 
+
+Example 2:
+
+Input: s = "aaaa"
+
+
+Output: 3
+
+Explanation: "aaa" is the longest proper 
+
+prefix and suffix. 
+
+Your task:
+You do not need to read any input or print anything. The task is to complete the function lps(), which takes a string as input and returns an integer.
+
+
+Expected Time Complexity: O(|s|)
+Expected Auxiliary Space: O(|s|)
+
+
+Constraints:
+1 ≤ |s| ≤ 105
+
+## Add two numbers
+
+![alt text](https://assets.leetcode.com/uploads/2020/10/02/addtwonumber1.jpg)
+
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+
+Example 2:
+
+Input: l1 = [0], l2 = [0]
+Output: [0]
+
+
+Example 3:
+
+Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
+Output: [8,9,9,9,0,0,0,1]
+
+
+## removeNthNodeFromTheEnd
+
+Given the head of a linked list, remove the nth node from the end of the list and return its head.
+
+ 
+![alt text](https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg)
+
+Example 3:
+
+Input: head = [1,2], n = 1
+Output: [1]
+
