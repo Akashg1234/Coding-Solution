@@ -560,3 +560,37 @@ Example 3:
 Input: head = [1,2], n = 1
 Output: [1]
 
+
+## Merge Two Sorted Lists
+
+You are given the heads of two sorted linked lists list1 and list2.
+
+Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
+
+Return the head of the merged linked list.
+
+![alt text](https://assets.leetcode.com/uploads/2020/10/03/merge_ex1.jpg)
+
+
+## Rotate List
+
+Given the head of a linked list, rotate the list to the right by k places.
+
+![alt text](https://assets.leetcode.com/uploads/2020/11/13/rotate1.jpg)
+
+![alt text](https://assets.leetcode.com/uploads/2020/11/13/roate2.jpg)
+
+## Remove Duplicates
+
+
+Given the head of a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list. Return the linked list sorted as well.
+https://assets.leetcode.com/uploads/2021/01/04/linkedlist1.jpg
+
+
+![alt text](https://assets.leetcode.com/uploads/2021/01/04/linkedlist1.jpg)
+
+
+[Reference][1]
+
+
+[1]:https://youtu.be/R6-PnHODewY  Reference
