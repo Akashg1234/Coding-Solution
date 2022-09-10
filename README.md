@@ -589,4 +589,4 @@ Given the head of a sorted linked list, delete all nodes that have duplicate num
 ![alt text](https://assets.leetcode.com/uploads/2021/01/04/linkedlist1.jpg)
 
 
-[a link ](https://youtu.be/R6-PnHODewY)
+[Reference](https://youtu.be/R6-PnHODewY)
