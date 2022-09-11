@@ -580,7 +580,7 @@ Given the head of a linked list, rotate the list to the right by k places.
 
 ![alt text](https://assets.leetcode.com/uploads/2020/11/13/roate2.jpg)
 
-## Remove Duplicates
+## Remove Duplicates 2
 
 
 Given the head of a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list. Return the linked list sorted as well.
@@ -590,3 +590,29 @@ Given the head of a sorted linked list, delete all nodes that have duplicate num
 
 
 [Reference](https://youtu.be/R6-PnHODewY)
+
+
+## Remove Duplicates 1
+
+Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
+
+![alt text](https://assets.leetcode.com/uploads/2021/01/04/list2.jpg)
+
+
+## Middle of the List
+
+Given the head of a singly linked list, return the middle node of the linked list.
+
+If there are two middle nodes, return the second middle node.
+
+![alt text](https://assets.leetcode.com/uploads/2021/07/23/lc-midlist2.jpg)
+
+
+## Reverse A Linked List
+
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+![alt text](https://assets.leetcode.com/uploads/2021/02/19/rev1ex1.jpg)
+
+[Reference](https://youtu.be/ugQ2DVJJroc)
+
