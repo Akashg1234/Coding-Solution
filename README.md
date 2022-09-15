@@ -616,3 +616,31 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
 [Reference](https://youtu.be/ugQ2DVJJroc)
 
+
+## Intersection of two list
+
+Given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return null.
+
+
+For example, the following two linked lists begin to intersect at node c1:
+
+
+![alt text](https://assets.leetcode.com/uploads/2021/03/05/160_statement.png)
+
+
+##  Palindrom Linked List
+
+Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
+
+![alt text](https://assets.leetcode.com/uploads/2021/03/03/pal1linked-list.jpg)
+
+## Create HashSet without using inbuilt set
+
+Design a HashSet without using any built-in hash table libraries.
+
+Implement MyHashSet class:
+
+void add(key) Inserts the value key into the HashSet.
+bool contains(key) Returns whether the value key exists in the HashSet or not.
+void remove(key) Removes the value key in the HashSet. If key does not exist in the HashSet, do nothing.
+
