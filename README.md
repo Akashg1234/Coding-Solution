@@ -729,9 +729,6 @@ Example 1:
 
 ![alt text](https://assets.leetcode.com/uploads/2020/11/05/merge_linked_list_ex2.png)
 
-```
-Input: list1 = [0,1,2,3,4,5,6], a = 2, b = 5, list2 = [1000000,1000001,1000002,1000003,1000004]
+```Input: list1 = [0,1,2,3,4,5,6], a = 2, b = 5, list2 = [1000000,1000001,1000002,1000003,1000004]
 Output: [0,1,1000000,1000001,1000002,1000003,1000004,6]
-Explanation: The blue edges and nodes in the above figure indicate the result.
-
-```
+Explanation: The blue edges and nodes in the above figure indicate the result.```
