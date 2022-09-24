@@ -790,3 +790,42 @@ Given a linked list, swap every two adjacent nodes and return its head. You must
 
 ![alt text](https://assets.leetcode.com/uploads/2020/10/03/swap_ex1.jpg)
 
+
+## Next Greater Node In Linked List
+
+You are given the head of a linked list with n nodes.
+
+For each node in the list, find the value of the next greater node. That is, for each node, find the value of the first node that is next to it and has a strictly larger value than it.
+
+Return an integer array answer where answer[i] is the value of the next greater node of the ith node (1-indexed). If the ith node does not have a next greater node, set answer[i] = 0.
+
+![alt text](https://assets.leetcode.com/uploads/2021/08/05/linkedlistnext2.jpg)
+
+
+## Random Nodes From The Linked List
+
+Given a singly linked list, return a random node's value from the linked list. Each node must have the same probability of being chosen.
+
+Implement the Solution class:
+
+Solution(ListNode head) Initializes the object with the head of the singly-linked list head.
+int getRandom() Chooses a node randomly from the list and returns its value. All the nodes of the list should be equally likely to be chosen.
+
+
+![alt text](https://assets.leetcode.com/uploads/2021/03/16/getrand-linked-list.jpg)
+
+
+Input
+["Solution", "getRandom", "getRandom", "getRandom", "getRandom", "getRandom"]
+[[[1, 2, 3]], [], [], [], [], []]
+Output
+[null, 1, 3, 2, 2, 3]
+
+Explanation
+Solution solution = new Solution([1, 2, 3]);
+solution.getRandom(); // return 1
+solution.getRandom(); // return 3
+solution.getRandom(); // return 2
+solution.getRandom(); // return 2
+solution.getRandom(); // return 3
+// getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning.
