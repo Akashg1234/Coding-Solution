@@ -867,7 +867,8 @@ Input: head = [1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]
 Output: [1,2,3,7,8,11,12,9,10,4,5,6]
 Explanation: The multilevel linked list in the input is shown.
 After flattening the multilevel linked list it becomes:
-![alt text](https://assets.leetcode.com/uploads/2021/11/09/flatten12.jpg)
 ```
+
+![alt text](https://assets.leetcode.com/uploads/2021/11/09/flatten12.jpg)
 
 ##
