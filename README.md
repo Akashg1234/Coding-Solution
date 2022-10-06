@@ -906,3 +906,40 @@ Since n = 7, node 3 with value 7 is the middle node, which is marked in red.
 We return the new list after removing this node. 
 ```
 
+## Partition List
+
+Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
+
+You should preserve the original relative order of the nodes in each of the two partitions.
+
+ 
+
+Example 1:
+![alt text](https://assets.leetcode.com/uploads/2021/01/04/partition.jpg)
+
+```
+Input: head = [1,4,3,2,5,2], x = 3
+Output: [1,2,2,4,3,5]
+```
+
+## Reorder List
+
+You are given the head of a singly linked-list. The list can be represented as:
+
+L0 → L1 → … → Ln - 1 → Ln
+Reorder the list to be on the following form:
+
+L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
+You may not modify the values in the list's nodes. Only nodes themselves may be changed.
+
+ 
+
+Example 1:
+
+![alt text](https://assets.leetcode.com/uploads/2021/03/09/reorder2-linked-list.jpg)
+
+```
+Input: head = [1,2,3,4,5]
+Output: [1,5,2,4,3]
+```
+
