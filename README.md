@@ -943,3 +943,9 @@ Input: head = [1,2,3,4,5]
 Output: [1,5,2,4,3]
 ```
 
+## Sort List
+
+Given the head of a linked list, return the list after sorting it in ascending order.
+
+
+![alt text](https://assets.leetcode.com/uploads/2020/09/14/sort_list_2.jpg)
