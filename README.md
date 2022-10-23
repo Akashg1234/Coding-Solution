@@ -958,3 +958,19 @@ There is a cycle in a linked list if there is some node in the list that can be 
 Do not modify the linked list.
 
 ![alt text](https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png)
+
+## Convert Sorted List to Binary Search Tree
+
+Given the head of a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
+
+For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
+
+![alt text](https://assets.leetcode.com/uploads/2020/08/17/linked.jpg)
+
+```
+Input: head = [-10,-3,0,5,9]
+Output: [0,-3,9,-10,null,5]
+Explanation: One possible answer is [0,-3,9,-10,null,5], which represents the shown height balanced BST.
+```
+
+
