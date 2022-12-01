@@ -991,3 +991,15 @@ Reverse the nodes in each group with an even length, and return the head of the 
 ![alt text](https://assets.leetcode.com/uploads/2021/10/25/eg1.png)
 
 ![alt text](https://assets.leetcode.com/uploads/2021/11/17/ex3.png)
+
+
+## Reverse Linked List II
+
+Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.
+
+![alt text](https://assets.leetcode.com/uploads/2021/02/19/rev2ex2.jpg)
+
+```
+Input: head = [1,2,3,4,5], left = 2, right = 4
+Output: [1,4,3,2,5]
+```
