@@ -1027,3 +1027,21 @@ Output: 4
 Explanation: There are 7 substrings of size 3: "aab", "aba", "bab", "abc", "bca", "cab", and "abc".
 The good substrings are "abc", "bca", "cab", and "abc".
 ```
+
+## Longest Nice Substring
+
+A string s is nice if, for every letter of the alphabet that s contains, it appears both in uppercase and lowercase. For example, "abABB" is nice because 'A' and 'a' appear, and 'B' and 'b' appear. However, "abA" is not because 'b' appears, but 'B' does not.
+
+Given a string s, return the longest substring of s that is nice. If there are multiple, return the substring of the earliest occurrence. If there are none, return an empty string.
+
+```
+Input: s = "YazaAay"
+Output: "aAa"
+Explanation: "aAa" is a nice string because 'A/a' is the only letter of the alphabet in s, and both 'A' and 'a' appear.
+"aAa" is the longest nice substring.
+
+Input: s = "Bb"
+Output: "Bb"
+Explanation: "Bb" is a nice string because both 'B' and 'b' appear. The whole string is a substring.
+```
+
