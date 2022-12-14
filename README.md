@@ -1072,3 +1072,64 @@ Explanation:
 No changes need to be made, since 2 consecutive black blocks already exist.
 Therefore, we return 0.
 ```
+## Find the K-Beauty of a Number
+
+The k-beauty of an integer num is defined as the number of substrings of num when it is read as a string that meet the following conditions:
+
+It has a length of k.
+It is a divisor of num.
+Given integers num and k, return the k-beauty of num.
+
+Note:
+
+Leading zeros are allowed.
+0 is not a divisor of any value.
+A substring is a contiguous sequence of characters in a string.
+
+```
+Input: num = 240, k = 2
+Output: 2
+Explanation: The following are the substrings of num of length k:
+- "24" from "240": 24 is a divisor of 240.
+- "40" from "240": 40 is a divisor of 240.
+Therefore, the k-beauty is 2
+
+Input: num = 430043, k = 2
+Output: 2
+Explanation: The following are the substrings of num of length k:
+- "43" from "430043": 43 is a divisor of 430043.
+- "30" from "430043": 30 is not a divisor of 430043.
+- "00" from "430043": 0 is not a divisor of 430043.
+- "04" from "430043": 4 is not a divisor of 430043.
+- "43" from "430043": 43 is a divisor of 430043.
+Therefore, the k-beauty is 2.
+```
+
+## Minimum Difference Between Highest and Lowest of K Scores
+
+You are given a 0-indexed integer array nums, where nums[i] represents the score of the ith student. You are also given an integer **k**.
+
+Pick the scores of any k students from the array so that the difference between the **highest** and the **lowest** of the k scores is **minimized**.
+
+Return the **minimum** possible difference.
+
+```
+Input: nums = [90], k = 1
+Output: 0
+Explanation: There is one way to pick score(s) of one student:
+- [90]. The difference between the highest and lowest score is 90 - 90 = 0.
+The minimum possible difference is 0.
+
+
+Input: nums = [9,4,1,7], k = 2
+Output: 2
+Explanation: There are six ways to pick score(s) of two students:
+- [9,4,1,7]. The difference between the highest and lowest score is 9 - 4 = 5.
+- [9,4,1,7]. The difference between the highest and lowest score is 9 - 1 = 8.
+- [9,4,1,7]. The difference between the highest and lowest score is 9 - 7 = 2.
+- [9,4,1,7]. The difference between the highest and lowest score is 4 - 1 = 3.
+- [9,4,1,7]. The difference between the highest and lowest score is 7 - 4 = 3.
+- [9,4,1,7]. The difference between the highest and lowest score is 7 - 1 = 6.
+The minimum possible difference is 2.
+```
+
